@@ -1,2 +1,49 @@
-Audio1:
-Audio2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Audio Page</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    audio {
+      display: block;
+      margin: 20px auto;
+      width: 300px;
+    }
+    .label {
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+    .spacer {
+      height: 400px; /* roughly 10 lines of space */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="spacer"></div>
+
+  <div class="label">Audio 1:</div>
+  <audio controls>
+    <source src="https://raw.githubusercontent.com/jacostacos-spec/jacobzimmerly/5278c8aee7a1d17d5d92527f26c7a1d80cd212e0/ljk_mn1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="label">Audio 2:</div>
+  <audio controls>
+    <source src="https://raw.githubusercontent.com/jacostacos-spec/jacobzimmerly/5278c8aee7a1d17d5d92527f26c7a1d80cd212e0/ljk_mn2.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
